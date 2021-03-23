@@ -29,7 +29,7 @@ gem "devise", github: "heartcombo/devise", ref: "0cd72a5" # Flexible authenticat
 gem "devise_invitable", "~> 2.0.3" # Allows invitations to be sent for joining
 gem "dogstatsd-ruby", "~> 4.8" # A client for DogStatsD, an extension of the StatsD metric server for Datadog
 gem "doorkeeper", "~> 5.5" # Oauth 2 provider
-gem "elasticsearch", "~> 7.11" # Powers DEVs core search functionality
+gem "elasticsearch", "~> 7.12" # Powers DEVs core search functionality
 gem "email_validator", "~> 2.2" # Email validator for Rails and ActiveModel
 gem "emoji_regex", "~> 3.2" # A pair of Ruby regular expressions for matching Unicode Emoji symbols
 gem "fastly", "~> 3.0" # Client library for the Fastly acceleration system
@@ -38,7 +38,7 @@ gem "field_test", "~> 0.4" # A/B testing
 gem "flipper", "~> 0.20.4" # Feature flipping / flags for Ruby
 gem "flipper-active_record", "~> 0.20.4" # Store Flipper flags in ActiveRecord
 gem "flipper-ui", "~> 0.20.4"
-gem "fog-aws", "~> 3.9" # 'fog' gem to support Amazon Web Services
+gem "fog-aws", "~> 3.10" # 'fog' gem to support Amazon Web Services
 gem "front_matter_parser", "~> 1.0" # Parse a front matter from syntactically correct strings or files
 gem "gemoji", "~> 4.0.0.rc2" # Character information and metadata for standard and custom emoji
 gem "gibbon", "~> 3.4" # API wrapper for MailChimp's API
